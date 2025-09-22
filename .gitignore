@@ -1,0 +1,19 @@
+# Ignore the virtual environment folder
+.venv/
+
+# Ignore all downloaded data files
+# This single line ignores the entire 'data' folder
+data/
+
+# Ignore the saved model and feature mappings
+artifacts/
+
+# Ignore the Parquet/CSV files you created
+*.parquet
+*.csv
+
+# Ignore system files
+.DS_Store
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
